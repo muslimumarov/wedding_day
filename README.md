@@ -1,1 +1,2 @@
 # wedding_day
+# wedding
