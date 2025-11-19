@@ -452,7 +452,6 @@ img {
 
 .title p {
 	color: #564861;
-	margin: 30px 0 20px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-size: 16px;
@@ -471,7 +470,7 @@ img {
 	text-align: center;
 	/* min-height:100%; */
 	padding-left: 28px;
-		padding-right: 28px;
+	padding-right: 28px;
 }
 
 
@@ -492,9 +491,7 @@ body {
 	flex-direction: column;
 }
 
-.title {
-	margin-bottom: 40px;
-}
+
 
 #time {
 	width: auto;
@@ -596,7 +593,6 @@ a {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
-	margin-bottom: 24px;
 }
 
 .twitter {
@@ -618,15 +614,18 @@ a {
 	display: block;
 	max-width: 600px;
 }
+
 @media (max-width:900px) {
 	img {
 		max-width: 30%;
 	}
+
 	.link {
-	display: inline;
+		display: inline;
 	}
+
 	.titlea {
-	 font-size: 18px !important;
+		font-size: 18px !important;
 	}
 
 }
